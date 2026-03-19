@@ -42,6 +42,32 @@
 
 package Intermediate_DSA1.carry_forward_pracctice.Java;
 
-public class LeadersInArray {
+import java.util.ArrayList;
+import java.util.Comparator;
 
+public class LeadersInArray {
+    public ArrayList<Integer> leader(int[] A) {
+        int n = A.length;
+        int max = A[n-1];
+        ArrayList<Integer> resultList = new ArrayList<>();
+        resultList.add(A[n-1]);
+
+        for(int i = n - 2; i >= 0; i--) {
+            System.out.println(A[i]);
+            if (A[i] > max) {
+                resultList.add(A[i]);
+                max = A[i];
+            }
+        }
+
+        return resultList;
+    }
+
+    public static void main(String[] args) {
+        int[] A = {16, 17, 4, 3, 5, 2};
+        LeadersInArray obj = new LeadersInArray();
+        ArrayList<Integer> result = obj.leader(A);
+        result.sort(Comparator.reverseOrder());
+        System.out.println("Leaders in the array: " + result);
+    }
 }

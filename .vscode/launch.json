@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PickFromBothSide",
+            "request": "launch",
+            "mainClass": "Intermediate_DSA1.carry_forward_pracctice.Java.PickFromBothSide",
+            "projectName": "Scalar_34b993c5"
+        },
+        {
+            "type": "java",
+            "name": "BulbAndSwitch",
+            "request": "launch",
+            "mainClass": "Intermediate_DSA1.carry_forward_pracctice.Java.BulbAndSwitch",
+            "projectName": "Scalar_34b993c5"
+        },
+        {
+            "type": "java",
+            "name": "EvenSubArrays",
+            "request": "launch",
+            "mainClass": "Intermediate_DSA1.carry_forward_pracctice.Java.EvenSubArrays",
+            "projectName": "Scalar_34b993c5"
+        },
+        {
+            "type": "java",
+            "name": "AmazingSubArray",
+            "request": "launch",
+            "mainClass": "Intermediate_DSA1.carry_forward_pracctice.Java.AmazingSubArray",
+            "projectName": "Scalar_34b993c5"
+        },
+        {
+            "type": "java",
+            "name": "BuySellStock",
+            "request": "launch",
+            "mainClass": "Intermediate_DSA1.carry_forward_pracctice.Java.BuySellStock",
+            "projectName": "Scalar_34b993c5"
+        },
+        {
+            "type": "java",
+            "name": "ClosestMinMax",
+            "request": "launch",
+            "mainClass": "Intermediate_DSA1.carry_forward_pracctice.Java.ClosestMinMax",
+            "projectName": "Scalar_34b993c5"
+        },
+        {
+            "type": "java",
+            "name": "LeadersInArray",
+            "request": "launch",
+            "mainClass": "Intermediate_DSA1.carry_forward_pracctice.Java.LeadersInArray",
+            "projectName": "Scalar_34b993c5"
+        },
+        {
+            "type": "java",
             "name": "SpecialSubsequesnces",
             "request": "launch",
             "mainClass": "Intermediate_DSA1.carry_forward_pracctice.Java.SpecialSubsequesnces",
