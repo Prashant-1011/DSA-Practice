@@ -68,7 +68,7 @@ public class BuySellStock {
         if(A.length == 0 || A.length == 1){
             return 0;
         }
-        
+        // A = [1, 4, 5, 2, 4]
         int max = A[A.length - 1];
         
         int profit = 0;

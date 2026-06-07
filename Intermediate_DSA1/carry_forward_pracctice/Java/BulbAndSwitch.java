@@ -57,7 +57,8 @@ public class BulbAndSwitch {
         for (int i = 0; i < myList.size(); i++) {
             if (myList.get(i) == state) {
                 ans++;
-                // As we will switch this, all the bulbs on right side will also change. So, change state = 1 - state
+                // As we will switch this, all the bulbs on right side will also change.
+                // So, change state = 1 - state
                 state = 1 - state;
             }
         }

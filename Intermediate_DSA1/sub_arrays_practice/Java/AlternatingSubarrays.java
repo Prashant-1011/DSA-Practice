@@ -54,6 +54,7 @@ public class AlternatingSubarrays {
         ArrayList < Integer > l1 = new ArrayList < > ();
         int n = A.length;
         int len = 2 * B + 1;
+        //  A = [1, 0, 1, 0, 1]
         for (int i = 0; i < n - len + 1; i++) {
             int curr = -1;
             int flag = 1;
